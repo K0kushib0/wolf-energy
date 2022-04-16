@@ -1,0 +1,85 @@
+@import url(null.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:700,900);
+
+.wrapper {
+    overflow: hidden;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+body {
+    height: 100%;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #424551;
+}
+
+/*Заголовок страницы*/
+
+header {
+    color: #1c2f7a;
+    font-family: Vollkorn;
+    font-weight: 900;
+    font-size: 46px;
+    margin-bottom: 30px 0px;
+}
+
+h2 {
+    color: orange;
+    font-family: Vollkorn;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px 0px;
+}
+
+/*Блок информации*/
+
+.block-info {
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.info {
+    margin-bottom: 50px;
+}
+
+.personal {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.list-personal {
+    font-family: Vollkorn;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-left: 80px;
+}
+
+img {
+    max-height: 300px;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.img-info {
+    max-width: 400px;
+    margin-bottom: 40px;
+    color: red;
+}
+
+.img-logistic {
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.ots {
+    margin-bottom: 20px;
+}
+
+span {
+    color: rgb(148, 105, 24);
+    text-decoration: underline;
+}
